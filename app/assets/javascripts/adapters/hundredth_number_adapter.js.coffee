@@ -1,0 +1,1 @@
+App.HundredthNumberAdapter = DS.ActiveModelAdapter.extend()

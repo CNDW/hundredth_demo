@@ -1,5 +1,7 @@
 HundredthDemo::Application.routes.draw do
   root :to => 'ember_app#index'
+  resource :hundredth_number, path: '/number', only: [:show]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

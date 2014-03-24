@@ -1,0 +1,11 @@
+div.panel.panel-primary
+	div.panel-heading
+		h1 Hundredth Demo
+
+	div.panel-body
+		h3 Please input a number
+		= input id="number-input" type='number' placeholder="enter number here" action="getNumber" value=inputNumber
+
+	div.panel-body
+		h3 The number is converted to
+		= outputName

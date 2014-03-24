@@ -1,0 +1,1 @@
+App.HundredthNumberRoute = Ember.Route.extend()

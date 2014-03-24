@@ -1,3 +1,9 @@
+PATH
+  remote: ./lib/hundredth
+  specs:
+    hundredth (0.0.2)
+      i18n (~> 0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -268,6 +274,7 @@ DEPENDENCIES
   guard-livereload
   guard-rspec
   guard-spork
+  hundredth!
   jquery-rails
   pg
   rails (= 4.0.0)

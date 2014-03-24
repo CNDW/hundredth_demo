@@ -4,7 +4,7 @@ App.Router.map ->
   # index and application are both routed by ember automatically upon the Ember.Application.create() call
   # they are included here in the App.Router.map as examples
   @route 'application', path: ''
-  @route 'index', path: '/'
+  @route 'hundredth_number', path: '/'
 
   # the following line would generate a path to the 'app/assets/javascripts/templates/users.emblem' template
   # you would access this with localhost:3000/#/users as localhost:3000/users would generate a http request to the rails backend
